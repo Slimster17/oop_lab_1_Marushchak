@@ -31,7 +31,7 @@ namespace lab_1_Marushchak
             get => length;
             set 
             {
-                if (int.TryParse(value.ToString(), out int parsedValue))
+                if (int.TryParse(value.ToString(), out int parsedValue) && parsedValue > 0 )
                 {
                     length = parsedValue;
                 }
