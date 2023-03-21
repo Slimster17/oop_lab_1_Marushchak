@@ -37,7 +37,7 @@ namespace lab_1_Marushchak
                 }
                 else
                 {
-                    throw new ArgumentException("Введіть число");
+                    throw new ArgumentException("Введіть число більше нуля");
                 }
             }
         } //
