@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace lab_1_Marushchak
@@ -24,12 +25,20 @@ namespace lab_1_Marushchak
             {
                 MessageBox.Show("Введiть усi дані!");
             }
-            else 
+            else
             {
                 File a = new File();
 
-                a.Add(textBox_name, dateTimePicker_1, textBox_length);
-                a.Print(textBox1);
+                string name = Convert.ToString(textBox_name.Text);
+                DateTime createdDate = dateTimePicker_1.Value;
+                int length = Convert.ToInt32(textBox_length.Text);
+
+                a.Add(name, createdDate, length);
+
+                text.Text += a.Print();
+                
+
+             
             }
             
         }

@@ -37,7 +37,7 @@
             this.dateTimePicker_1 = new System.Windows.Forms.DateTimePicker();
             this.textBox_length = new System.Windows.Forms.TextBox();
             this.textBox_name = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.text = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -137,20 +137,20 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Honeydew;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(0, 0);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox1.Size = new System.Drawing.Size(829, 155);
-            this.textBox1.TabIndex = 1;
+            this.text.BackColor = System.Drawing.Color.Honeydew;
+            this.text.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.text.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.text.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.text.Location = new System.Drawing.Point(0, 0);
+            this.text.Multiline = true;
+            this.text.Name = "textBox1";
+            this.text.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.text.Size = new System.Drawing.Size(829, 155);
+            this.text.TabIndex = 1;
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.text);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -188,7 +188,7 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker_1;
         private System.Windows.Forms.TextBox textBox_length;
         private System.Windows.Forms.TextBox textBox_name;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox text;
         private System.Windows.Forms.Panel panel1;
     }
 }
