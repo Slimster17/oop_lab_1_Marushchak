@@ -49,9 +49,9 @@ namespace lab_1_Marushchak
 
         public File(string name, DateTime createdDate, int length) // параметризований конструктор
         {
-           this.name = name;
-           this.createdDate = CreatedDate;
-           this.length = length;
+           Name = name;
+           CreatedDate = CreatedDate;
+           Length = length;
         }
         
         //public void Print(TextBox textBox) // Вивід інформацію в textBox
@@ -74,9 +74,9 @@ namespace lab_1_Marushchak
 
         public void Add(string name , DateTime createdDate, int length) // Зчитування з textBox i DateTimePicker
         {
-            this.name = name;
-            this.createdDate = createdDate; 
-            this.length = length;
+            Name = name;
+            CreatedDate = createdDate; 
+            Length = length;
         }
 
 
